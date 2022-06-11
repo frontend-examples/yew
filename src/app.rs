@@ -4,8 +4,7 @@ use yew::prelude::*;
 pub fn app() -> Html {
     html! {
         <main>
-            <h1>{ "Hello World!" }</h1>
-            <span class="subtitle">{ "from Yew with " }<i class="heart" /></span>
+            <p>{ "Hello World!" }</p>
         </main>
     }
 }
